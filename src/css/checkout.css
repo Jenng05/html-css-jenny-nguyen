@@ -1,0 +1,131 @@
+.checkout-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem 4rem;
+  margin: auto;
+}
+
+/*left side column*/
+.checkout-header {
+    padding-left: 4rem;
+}
+
+.your-information-container {
+    display: grid;
+    border: 5px solid #b0b0b0;
+    border-radius: 5px;
+    background-color: #b0b0b0;
+    margin-bottom: 1rem;
+    padding: 0rem 1rem 1rem 1rem;
+
+}
+
+p.header-container-section {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.information-catagory {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+input {
+  display: block;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+
+input::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+.checkout-button {
+  padding: 1rem;
+  text-align: left;
+  background-color: #b0b0b0;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white; 
+  display: block;
+  font-family: inherit; 
+}
+
+.order-confirmation:hover {
+  background-color: #004e70;
+}
+
+/*right side column*/
+
+.order-summary {
+  display: flex;
+  background-color: #f8f8f8;
+  padding: 1rem 3rem 3rem 3rem;
+  border-radius: 8px;
+  border: 7px solid var(--main-color);
+  flex-direction: column;
+  height: 45rem;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.checkout-hr {
+    border: none;
+    border-top: 2px solid;
+    margin-top: 0.5rem;
+}
+.heading-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-information h3 {
+  margin: 1rem 0;
+  font-style: initial;
+  font-weight: lighter;
+}
+
+.edit-button {
+  all: unset;              
+  font-family: inherit;    
+  font-size: 1.5rem;        
+  color: inherit;          
+  cursor: pointer;   
+}
+
+.heading-summary span {
+  font-size: 45px;
+}
+.order-summary-info {
+  margin-right: 15rem;
+  margin-top: -2rem;
+}
+.order-information {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: self-start;
+  gap: 1rem;
+}
+
+.order-information img {
+  width: 290px;
+  height: 355px;
+}
+
+.summary-text-price h4 {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}

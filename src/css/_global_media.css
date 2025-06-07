@@ -1,0 +1,81 @@
+/* Global Media Queries*/
+
+@media (min-width: 500px) {
+  .header-container {
+    display: grid;
+    grid-template-areas: 
+    "nav icons"
+    "logo logo";
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .main-nav {
+    grid-area: nav;
+    justify-self: start;
+  }
+
+  .logo {
+    grid-area: logo;
+    justify-self: center;
+    text-align: center;
+  }
+
+  .enlarged {
+    height: auto;
+  }
+
+  .header-icons {
+    grid-area: icons;
+    justify-self: end;
+  }
+
+  .main-nav ul {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+    .footer-container {
+    padding: 3rem;
+  }
+
+  .footer-text {
+    font-size: 0.9rem;
+  }
+
+  .newsletter input {
+    width: 100%;
+  }
+
+  .newsletter {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 1024px) {
+  .product-list {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .product-image {
+    position: relative;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-list {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+  .product-info img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+    
+}
