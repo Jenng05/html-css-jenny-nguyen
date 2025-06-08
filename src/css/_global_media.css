@@ -79,3 +79,57 @@
   }
     
 }
+
+@media (max-width: 768px) {
+  .checkout-layout {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+  .checkout-header {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .your-information-container {
+    padding: 1rem;
+  }
+
+  .order-summary {
+    padding: 1rem;
+    margin-top: 2rem;
+    height: auto;
+  }
+
+  .order-information {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .order-information img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+  }
+
+  .order-summary-info {
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+  .summary-text-price h4 {
+    flex-direction: column;
+    gap: 0.3rem;
+    text-align: left;
+  }
+
+  .heading-summary span {
+    font-size: 2rem;
+  }
+
+  .checkout-button {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
