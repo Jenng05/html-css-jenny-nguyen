@@ -19,3 +19,11 @@ The project showcases structured layouts, product pages, and a checkout flow wit
 [View Live Site] - https://jenng05.github.io/html-css-jenny-nguyen/
 
 git clone: https://github.com/Jenng05/html-css-jenny-nguyen.git
+
+
+## Improvements
+
+Post-submission improvements:
+- Resolved CSS loading issues on GitHub Pages
+- Added .nojekyll to allow underscore-prefixed files
+- Fixed broken asset paths
